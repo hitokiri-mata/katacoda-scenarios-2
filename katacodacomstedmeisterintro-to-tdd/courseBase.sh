@@ -1,3 +1,3 @@
 #! /bin/bash
 
-apt update && apt install python3
+apt update && apt install -y python3
