@@ -24,7 +24,7 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": [
+      "host01": [
         {
           "file": "simpleexample.py",
           "target": "~/"
