@@ -22,15 +22,15 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "simpleexample.py",
+          "target": "~/"
+        }
+      ]
     }
-  },
-  "assets": {
-    "host01": [
-      {
-        "file": "simpleexample.py",
-        "target": "~/"
-      }
-    ]
   },
   "environment": {
     "uilayout": "editor-terminal"
