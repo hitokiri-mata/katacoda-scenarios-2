@@ -1,6 +1,10 @@
 import unittest
 
-class TestSumNumbers(unittest.TestCase):
-    def test_can_sum_two_numbers(self):
-        result = my_sum(2, 3)
-        self.assertEqual(result, 5)
+# Add application code here
+
+
+# Add test code here
+
+
+if __name__ == '__main__':
+    unittest.main()

@@ -9,16 +9,11 @@ The requirement:
 Step 1 - Write a test to test the sum of two numbers
 ----------------------------------------------------
 
-<pre class="file" data-filename="simpleexample.py" data-target="replace">
-import unittest
-
+<pre class="file" data-target="clipboard">
 class TestSumNumbers(unittest.TestCase):
     def test_can_sum_two_numbers(self):
-        result = calc.my_sum(2, 3)
+        result = my_sum(2, 3)
         self.assertEqual(result, 5)
-
-if __name__ == '__main__':
-    unittest.main()
 </pre>
 
 Verify that the tests fail.  This step is important as we want to make
