@@ -17,14 +17,15 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "courseBase.sh"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "docker"
