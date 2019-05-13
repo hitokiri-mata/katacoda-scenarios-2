@@ -1,18 +1,16 @@
 Now make the test pass
 ======================
 
-Let's define the function and make the test pass.
+The application code is in `calc.py`.  
 
-For simplicity's sake, we'll define it within the same file.
+Let's define the function and make the test pass.
 
 The simplest function that can make the test pass is:
 
-<pre class="file" data-target="clipboard">
+<pre class="file" data-filename="calc.py" data-target="replace">
 def my_sum(a, b):
     return a + b
 </pre>
 
-Add that function to simpleexample.py and make sure that the tests
-now pass.
 
-`python3 ./simpleexample.py`{{execute}}
+`python3 ./tests.py`{{execute}}
