@@ -45,8 +45,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "./courseReady.sh",
-      "code": "./courseBase.sh"
+      "code": "./courseReady.sh",
+      "courseData": "./courseBase.sh"
     },
     "finish": {
       "text": "finish.md"
