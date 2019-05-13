@@ -12,5 +12,6 @@ def my_sum(a, b):
     return a + b
 </pre>
 
+Let's run the tests and verify that they pass:
 
 `python3 ./tests.py`{{execute}}
