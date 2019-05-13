@@ -9,14 +9,13 @@ create anything to complicated.  Good test code is simple.
 * `test_that_no_arguments_return_zero()` should be kept in a separate assertion but we can
    refactor the test running code to avoid the duplication.
 
-<pre class="file" data-target="clipboard">
-
-class TestSumNumbers(unittest.TestCase):
+<pre class="file" data-filename="tests.py" data-target="replace">
+class TestRunFunction(unittest.TestCase):
     def _verify_cases(self, cases):
         for expected_sum, inputs in cases:
             result = my_sum(*inputs)
             self.assertEqual(expected_sum, result)
-        
+
     def test_can_take_variable_number_of_arguments(self):
         self._verify_cases([
             [13, [13]],
@@ -29,22 +28,8 @@ class TestSumNumbers(unittest.TestCase):
         self._verify_cases([
             [0, []],
         ])
-
 </pre>
 
-Verify that the tests fail:
+Verify that the tests still pass.
 
-`python3 ./simpleexample.py`{{execute}}
-
-Update `my_sum()`.
-
-<pre class="file" data-target="clipboard">
-def my_sum(*args):
-    if len(args) == 0:
-        return 0
-    return sum(args)
-</pre>
-
-Verify the tests pass.
-
-`python3 ./simpleexample.py`{{execute}}
+`python3 ./tests.py`{{execute}}
