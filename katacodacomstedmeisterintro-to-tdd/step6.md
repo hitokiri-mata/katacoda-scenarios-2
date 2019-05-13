@@ -26,12 +26,8 @@ class TestRunFunction(unittest.TestCase):
             self.assertEqual(expected_sum, result)
 
     def test_that_no_arguments_return_zero(self):
-        cases = [
-            [0, []],
-        ]
-        for expected_sum, inputs in cases:
-            result = my_sum(*inputs)
-            self.assertEqual(expected_sum, result)
+        result = my_sum()
+        self.assertEqual(0)
 
 </pre>
 
