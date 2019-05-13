@@ -1,9 +1,9 @@
 import unittest
 
-# Add application code here
+import calc
 
-
-# Add test code here
+class TestRunFunction(unittest.TestCase):
+    pass
 
 
 if __name__ == '__main__':
