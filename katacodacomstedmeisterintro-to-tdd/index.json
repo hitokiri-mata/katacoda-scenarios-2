@@ -47,7 +47,11 @@
     "assets": {
       "client": [
         {
-          "file": "simpleexample.py",
+          "file": "tests.py",
+          "target": "~/"
+        },
+        {
+          "file": "calc.py",
           "target": "~/"
         }
       ]
