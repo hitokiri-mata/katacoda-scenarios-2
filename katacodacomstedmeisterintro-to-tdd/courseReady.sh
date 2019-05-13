@@ -2,7 +2,10 @@
 
 echo "Preparing environment - this can take a few mins"
 
-while `command -v python3`; do
+EXISTS="1"
+while [ "$EXISTS" == "1" ]; do
+    command -v pythond3 > /dev/null
+    EXISTS=$?
     echo "waiting"
     sleep 1
 done
