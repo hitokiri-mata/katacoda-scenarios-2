@@ -37,6 +37,14 @@
         {
           "file": "unit-tests.py",
           "target": "~/"
+        },
+        {
+          "file": "response1.html",
+          "target": "~/"
+        },
+        {
+          "file": "webscraper.py",
+          "target": "~/"
         }
       ]
     }
