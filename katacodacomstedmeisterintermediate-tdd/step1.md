@@ -39,4 +39,4 @@ if __name__ == '__main__':
 
 Finally, let's verify that we can run the test and that it fails:
 
-`./run-acceptance-tests.sh`{{execute}}
+`bash run-acceptance-tests.sh`{{execute}}

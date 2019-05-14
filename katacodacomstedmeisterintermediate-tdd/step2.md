@@ -42,7 +42,7 @@ if __name__ == '__main__':
 
 Verify that the test fails before moving on:
 
-`./unit-tests.py`{{execute}}
+`python3 unit-tests.py`{{execute}}
 
 Now we can implement this functionality, so add in the following code.
 
@@ -60,4 +60,4 @@ def retrieve_web_content(url):
 
 Verify that this fixes the tests:
 
-`./unit-tests.py`{{execute}}
+`python3 unit-tests.py`{{execute}}
