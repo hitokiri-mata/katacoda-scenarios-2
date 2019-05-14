@@ -26,14 +26,14 @@ import webscraper
 class TestRetrieveWebPage(unittest.TestCase):
     def test_can_retrieve_webpage(self, requests_mock):
         # setup
-        requests_mock.get.return_value = mock.sentinel.web_response
+        requests_mock.get.return_value.content = mock.sentinel.web_response
 
         # test
         response = webscraper.retrieve_web_content(mock.sentinel.web_url)
 
         # assert
         requests_mock.get.assert_called_once_with(mock.sentinel.web_url)
-        self.assertEqual(response, mock.sentinel.web_response.content)
+        self.assertEqual(response, mock.sentinel.web_response)
 
 
 if __name__ == '__main__':
