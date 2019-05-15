@@ -1,6 +1,6 @@
 Intermediate TDD
 ================
 
-![ATDD](ATDD.png)
+![ATDD](./ATDD.png)
 
 This scenario includes a more advanced example.
