@@ -13,7 +13,13 @@
       },
       {
         "title": "Step 3",
+        "answer": "step3-answer.md",
         "text": "step3.md"
+      },
+      {
+        "title": "Step 4",
+        "answer": "step4-answer.md",
+        "text": "step4.md"
       }
     ],
     "intro": {
