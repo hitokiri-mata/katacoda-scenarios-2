@@ -81,8 +81,6 @@ Now we can implement this functionality, so add in the following code.
 <pre class="file" data-filename="webscraper.py" data-target="replace">
 #! /usr/bin/env python3
 
-"""This module contains the unit tests for this module"""
-
 import requests
 
 def retrieve_web_content(url):

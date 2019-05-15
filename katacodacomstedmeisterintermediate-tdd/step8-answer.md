@@ -75,8 +75,6 @@ Application Code
 <pre class="file" data-filename="webscraper.py" data-target="replace">
 #! /usr/bin/env python3
 
-"""This module contains the unit tests for this module"""
-
 import requests
 import re
 import sys

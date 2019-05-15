@@ -101,4 +101,7 @@ def main():
     url = sys.argv[1]
     result = sum_of_numbers_from_webpage(url)
     print (result)
+
+if __name__ == '__main__':
+    main()
 </pre>
