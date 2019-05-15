@@ -72,7 +72,7 @@ if __name__ == '__main__':
 Application Code
 ================
 
-<pre class="file" data-filename="unit-tests.py" data-target="replace">
+<pre class="file" data-filename="webscraper.py" data-target="replace">
 #! /usr/bin/env python3
 
 """This module contains the unit tests for this module"""

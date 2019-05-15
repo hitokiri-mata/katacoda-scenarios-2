@@ -4,8 +4,6 @@ Add debug flag to the sum function
 Unit Test Case
 --------------
 
-Add the following to the `TestFindSumFromWebPage()` class.
-
 <pre class="file" data-target="clipboard">
 @mock.patch('webscraper.print')
 @mock.patch('webscraper.extract_numbers_from_text', autospec=True)
@@ -70,7 +68,7 @@ Extend main function
 class TestWebScraperMain(unittest.TestCase):
     def test_webscraper_main(self, print_mock, number_sum_mock, sys_mock, parse_args_mock):
         # setup
-        sys_mock.argv = mock.sentinel.argv_values
+        sys_mock.argv = ['prog_name', mock.sentinel.argv_values]
         number_sum_mock.return_value = mock.sentinel.number_sum
         parse_args_mock.return_value = { 'url': mock.sentinel.a_url, 'debug': mock.sentinel.debug }
 
@@ -86,7 +84,7 @@ class TestWebScraperMain(unittest.TestCase):
 
 <pre class="file" data-target="clipboard">
 def main():
-    args = parse_args(sys.argv)
+    args = parse_args(sys.argv[1:])
     result = sum_of_numbers_from_webpage(args['url'], args['debug'])
     print (result)
 </pre>

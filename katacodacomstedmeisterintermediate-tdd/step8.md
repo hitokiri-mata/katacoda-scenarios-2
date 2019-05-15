@@ -15,3 +15,6 @@ and the unit tests to rectify this.  Once that has been done, the acceptance tes
 now pass.
 
 `bash run-acceptance-tests.sh`{{execute}}
+
+On a side note, this test failure shows why acceptance testing is needed.  Pure unit testing
+wasn't able to catch this error.
