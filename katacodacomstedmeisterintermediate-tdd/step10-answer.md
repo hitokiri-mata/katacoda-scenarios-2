@@ -5,7 +5,7 @@ Unit Test Code
 class TestGetArgs(unittest.TestCase):
     def test_url_only(self):        
         # test
-        result = webscraper.parse_args(['pgm_name', 'a_url'])
+        result = webscraper.parse_args(['a_url'])
 
         # assert
         self.assertEqual(result, {
@@ -16,7 +16,7 @@ class TestGetArgs(unittest.TestCase):
     
     def test_url_and_debug_flag_first(self):
         # test
-        result = webscraper.parse_args(['pgm_name', '-v', 'a_url'])
+        result = webscraper.parse_args(['-v', 'a_url'])
 
         # assert
         self.assertEqual(result, {
@@ -26,7 +26,7 @@ class TestGetArgs(unittest.TestCase):
 
     def test_url_and_debug_flag_second(self):
         # test
-        result = webscraper.parse_args(['pgm_name', 'a_url', '-v'])
+        result = webscraper.parse_args(['a_url', '-v'])
 
         # assert
         self.assertEqual(result, {

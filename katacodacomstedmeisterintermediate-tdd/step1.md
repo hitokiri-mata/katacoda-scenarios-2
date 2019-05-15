@@ -35,7 +35,7 @@ import subprocess
     
 class TestWebScraper(unittest.TestCase):
     def test_can_add_whole_numbers(self):
-        result = subprocess.check_output('./webscraper.py http://localhost:8000/response1.html', shell=True)
+        result = subprocess.check_output('python3 webscraper.py http://localhost:8000/response1.html', shell=True)
         self.assertEqual(result, b'1834\n')
 
 if __name__ == '__main__':

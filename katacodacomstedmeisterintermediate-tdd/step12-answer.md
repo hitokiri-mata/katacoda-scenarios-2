@@ -31,7 +31,7 @@ class TestFindSumFromWebPage(unittest.TestCase):
         extract_numbers_mock.return_value = [1, 2, 3, 4]
 
         # test
-        result = webscraper.sum_of_numbers_from_webpage(mock.sentinel.a_url)
+        result = webscraper.sum_of_numbers_from_webpage(mock.sentinel.a_url, True)
 
         # assert
         web_content_mock.assert_called_once_with(mock.sentinel.a_url)
@@ -54,7 +54,7 @@ def sum_of_numbers_from_webpage(url, debug=False):
     nums = extract_numbers_from_text(content)
     if debug:
         for n in nums:
-            print n
+            print (n)
     return sum(nums)
 </pre>
 
