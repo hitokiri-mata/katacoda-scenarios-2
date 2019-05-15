@@ -20,7 +20,18 @@
         "title": "Step 4",
         "answer": "step4-answer.md",
         "text": "step4.md"
+      },
+      {
+        "title": "Step 5",
+        "answer": "step5-answer.md",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6",
+        "answer": "step6-answer.md",
+        "text": "step6.md"
       }
+      
     ],
     "intro": {
       "text": "intro.md",
