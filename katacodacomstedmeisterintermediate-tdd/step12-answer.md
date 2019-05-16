@@ -78,7 +78,7 @@ class TestWebScraperMain(unittest.TestCase):
         # assert
         number_sum_mock.assert_called_once_with(mock.sentinel.a_url, mock.sentinel.debug)
         print_mock.assert_called_once_with(mock.sentinel.number_sum)
-        parse_args_mock.assert_called_once_with(mock.sentinel.argv_values)
+        parse_args_mock.assert_called_once_with([mock.sentinel.argv_values])
 </pre>
 
 
