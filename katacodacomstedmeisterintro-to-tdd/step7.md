@@ -10,6 +10,10 @@ create anything to complicated.  Good test code is simple.
    refactor the test running code to avoid the duplication.
 
 <pre class="file" data-filename="tests.py" data-target="replace">
+import unittest
+
+import calc
+
 class TestRunFunction(unittest.TestCase):
     def _verify_cases(self, cases):
         for expected_sum, inputs in cases:
@@ -28,6 +32,9 @@ class TestRunFunction(unittest.TestCase):
         self._verify_cases([
             [0, []],
         ])
+
+if __name__ == '__main__':
+    unittest.main()
 </pre>
 
 Verify that the tests still pass.
