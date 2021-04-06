@@ -4,11 +4,11 @@ Test Driven Development
 What is TDD
 -----------
 
-Test driven development refers to the act of writing the tests first
-and only writing application code when there is a failing test written
-first.  It is also referred to as red, green refactor.
+El desarrollo guiado por pruebas (TDD) por sus siglas en ingles, se refiere al acto de escribir las pruebas primero
+y solo escribir el código fuente de la aplicación cuando hay una prueba fallida escrita previamente, dicha practica
+es conocida como el ciclo de rojo, verde y refactorizacion.
 
-* Red create a failing test.  Keep the test as small as possible
+* red.  Crea una prueba unitaria la cual estara fallida, debido a que no existe un codigo fuente que validarRojo crea una prueba fallida, es importante recordar que se debe mantener la prueba lo más pequeña y simple posible. 
 * Green write just enough code to make the test pass
 * Refactor rework the code without changing the functionality (keep the tests green).
 * Repeat
