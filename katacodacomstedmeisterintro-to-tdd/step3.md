@@ -1,17 +1,17 @@
-Now make the test pass
+Ahora haz que tu prueba funcione
 ======================
 
-The application code is in `calc.py`.  
+El código de la aplicación se encuentra en `calc.py`.  
 
-Let's define the function and make the test pass.
+Definamos la función y hagamos que la prueba pase.
 
-The simplest function that can make the test pass is:
+La función más simple que puede hacer que la prueba pase es:
 
 <pre class="file" data-filename="calc.py" data-target="replace">
 def my_sum(a, b):
     return a + b
 </pre>
 
-Let's run the tests and verify that they pass:
+Ejecutemos las pruebas y verifiquemos que estas funcionen:
 
 `python3 ./tests.py`{{execute}}
