@@ -1,18 +1,14 @@
 First create a failing test
 ===========================
 
-Although TDD is focussed on writing the tests first, the idea
-is not to write a big test suite up front, but rather a small
-test case that is just enough to cause a failing test so that
-some functionality can be added.
+Aunque TDD se centra en escribir las pruebas antes que el código fuente, es importante considerar que la idea tras esto no es la de escribir un gran conjunto de pruebas por adelantado, sino más bien escribir el mínimo de casos de prueba que garanticen la correcta ejecución de la funcionalidad a ser construida, ya que a medida que se agreguen nuevas funcionalidades, iremos agregando mas pruebas a las existentes, con lo cual se ira completando de manera iterativa e incremental,
+la batería de pruebas correspondiente a código creado por el desarrollador. 
 
-With that in mind, a good first test would be to validate the
-sum of two numbers and set aside the variable number of
-arguments requirement for now.
+Con este concepto en mente, una buena primera prueba sería validar la suma de dos números y dejar de lado el requisito de número variable de argumentos por ahora.
 
 Update `tests.py` with the following test case:
 
-Step 1 - Write a test to test the sum of two numbers
+Primer paso  - Escribe un caso de prueba que valide corractamente la suma de dos numeros.
 ----------------------------------------------------
 
 <pre class="file" data-filename="tests.py" data-target="replace">
@@ -29,8 +25,7 @@ if __name__ == '__main__':
     unittest.main()
 </pre>
 
-Verify that the tests fail.  This step is important as we want to make
-sure that our tests work and that they are passing because our code is
-correct and not because they are not running correctly.
+**Verifique que las pruebas fallen.** Este paso es importante ya que queremos hacer es
+asegurarnos que las pruebas funcionan una vez que nuestro código esta correctamente implementado.
 
 `python3 ./tests.py`{{execute}}
