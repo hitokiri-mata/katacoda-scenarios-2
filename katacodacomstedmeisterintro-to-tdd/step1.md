@@ -1,12 +1,12 @@
-A Simple Example
+Un ejemplo simple
 ================
 
 The requirement:
 
-  * Create a function that will take a variable amount of arguments
-    and return the sum.
+  * Crea una función que tome una cantidad variable de argumentos
+     y retorne la suma de los argumentos ingresados..
 
-This example already contains a basic test framework.  You can
-run it as soon as the environment is ready.
+En este ejemplo observamos como ya contiene un marco básico, para la creacion de pruebas. 
+para alistar tu entorno de trabajo es necesario que ejecutes el script que se muestra a continuación.
 
 `python3 ./tests.py`{{execute}}
