@@ -5,6 +5,6 @@ def my_sum(*args):
     return sum(args)
 </pre>
 
-Verify the tests pass.
+Verifique que las pruebas se ejecuten correctamente.
 
 `python3 ./tests.py`{{execute}}
