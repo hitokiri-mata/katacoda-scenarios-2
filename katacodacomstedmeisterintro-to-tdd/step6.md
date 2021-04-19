@@ -1,13 +1,10 @@
-What about an empty list
+¿Qué pasa en el caso que tengamos una lista vacía?
 ========================
 
-In the process of creating example test inputs for this test case,
-it becomes apparent that the special case of no arguments has not
-been considered.  It is not entirely clear what the behaviour
-should be.  So we ask the product owner who says
-that the function returns an error code of -3.
+Como podemos observar en el proceso de creación de los argumentos de entrada, utilizados como ejemplo en la construcción de este caso de prueba, podemos observar, que el escenario en el cual no se ingresan argumentos de entrada a la función, no fue considerado, de momento no esta estipulado cual es el comportamiento que la función debería tener para dicho escenario, por lo cual es necesario consultarle a nuestro product owner, acerca del comportamiento esperado para el sistema en dicho escenario, por ahora entre tenemos esta conversación, consideraremos el hecho que la función simplemente retorne el código
+de error -3.    
 
-Great - let's capture that in the unit tests.
+Genial -  entonces tratemos de incorporar este comportamiento dentro de nuestra prueba unitaria. 
 
 <pre class="file" data-filename="tests.py" data-target="replace">
 import unittest
@@ -37,8 +34,8 @@ if __name__ == '__main__':
     unittest.main()
 </pre>
 
-Verify that the tests fail:
+Verifiquemos si las pruebas fallan:
 
 `python3 ./tests.py`{{execute}}
 
-And update `my_sum()` to make the tests pass.
+y actualiza `my_sum()` para que la ejecución de la prueba, sea satisfactoria.
