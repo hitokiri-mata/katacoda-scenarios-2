@@ -3,6 +3,6 @@ def my_sum(*args):
     return sum(args)
 </pre>
 
-And verify that the tests pass:
+verifique que las pruebas pasen:
 
 `python3 ./tests.py`{{execute}}
