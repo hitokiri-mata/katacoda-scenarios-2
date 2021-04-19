@@ -1,8 +1,8 @@
 Extend the tests
 ================
 
-It's time to extend the tests to cope with a variable number of
-arguments, so extend the test code to be as follows:
+Es hora de ampliar las pruebas para hacer frente a un número variable de
+argumentos, por lo cual es necesario que se amplíe el código de prueba a algo parecido :
 
 <pre class="file" data-filename="tests.py" data-target="replace">
 import unittest
@@ -28,8 +28,8 @@ if __name__ == '__main__':
     unittest.main()
 </pre>
 
-And verify that the tests now fail.
+Al momento de ejecurar la prueba esta debe fallar.
 
 `python3 ./tests.py`{{execute}}
 
-Before moving on, update `my_sum()` to fix the failing tests.
+Asi que antes de continuar debemos, actualizar `my_sum()` para poder solucionar el hecho que la ejecución de los test hayan fallado.
