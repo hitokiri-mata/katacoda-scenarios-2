@@ -1,7 +1,8 @@
 Refactoricemos
 ========
 
-Como podemos notar el código de prueba parece un poco repetitivo, así que refactoricemos un poco  el código duplicado, de la prueba. No te vuelvas demasiado loco, no queremos crear nada demasiado complicado. Un buen código siempre es simple.
+Como podemos notar el código de prueba parece un poco repetitivo, así que refactoricemos un poco  el código duplicado, de la prueba. 
+No te vuelvas demasiado loco, no queremos crear nada demasiado complicado. Un buen código siempre es simple.
 
 * `test_can_sum_two_numbers()` se puede incorporar en `test_can_take_variable_number_of_arguments()`
 * `test_that_no_arguments_return_zero()` debe mantenerse en una **assertion** separada, pero podemos
