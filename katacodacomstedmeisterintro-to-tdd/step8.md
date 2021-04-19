@@ -1,9 +1,9 @@
-A new requirement
+Un nuevo requerimiento. 
 =================
 
-A new requirement has just arrived - some of the inputs might be strings.
+Acaba de llegar un nuevo requisito: algunas de las entradas pueden ser caracteres alfanumericos.
 
-The pattern should be clear by now:
+El patrón debería estar claro a estas alturas:
 
-* First create a failing test.
-* Then make it pass
+*Primero cree una prueba fallida.
+*Entonces implemementa el codigo suficiente para que esta pueda ejecutarse satisfactoriamente. 
