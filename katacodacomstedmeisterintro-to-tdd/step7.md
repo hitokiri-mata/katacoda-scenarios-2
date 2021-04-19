@@ -1,13 +1,11 @@
-Refactor
+Refactoricemos
 ========
 
-The test code is looking a bit repitative, so let's refactor the
-out the duplicated code.  Don't go too wild we don't want to
-create anything to complicated.  Good test code is simple.
+Como podemos notar el código de prueba parece un poco repetitivo, así que refactoricemos un poco  el código duplicado, de la prueba. No te vuelvas demasiado loco, no queremos crear nada demasiado complicado. Un buen código siempre es simple.
 
-* `test_can_sum_two_numbers()` can be incorporated in `test_can_take_variable_number_of_arguments()`
-* `test_that_no_arguments_return_zero()` should be kept in a separate assertion but we can
-   refactor the test running code to avoid the duplication.
+* `test_can_sum_two_numbers()` se puede incorporar en `test_can_take_variable_number_of_arguments()`
+* `test_that_no_arguments_return_zero()` debe mantenerse en una **assertion** separada, pero podemos
+   refactorizar nuestro código de prueba de modo que podamos evitar la duplicidad.
 
 <pre class="file" data-filename="tests.py" data-target="replace">
 import unittest
@@ -37,6 +35,6 @@ if __name__ == '__main__':
     unittest.main()
 </pre>
 
-Verify that the tests still pass.
+Verifique que las pruebas aún pasen.
 
 `python3 ./tests.py`{{execute}}
