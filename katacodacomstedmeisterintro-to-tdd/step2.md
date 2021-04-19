@@ -1,7 +1,7 @@
 Primero crea una prueba fallida
 ===========================
 
-Aunque TDD se centra en escribir las pruebas antes que el código fuente, es importante considerar que la idea tras esto no es la de escribir un gran conjunto de pruebas por adelantado, sino más bien escribir el mínimo de casos de prueba que garanticen la correcta ejecución de la funcionalidad a ser construida, ya que a medida que se agreguen nuevas funcionalidades, iremos agregando mas pruebas a las existentes, con lo cual se ira completando de manera iterativa e incremental,
+Aunque **TDD** se centra en escribir las pruebas antes que el código fuente, es importante considerar que la idea tras esto no es la de escribir un gran conjunto de pruebas por adelantado, sino más bien escribir el mínimo de casos de prueba que garanticen la correcta ejecución de la funcionalidad a ser construida, ya que a medida que se agreguen nuevas funcionalidades, iremos agregando mas pruebas a las existentes, con lo cual se ira completando de manera iterativa e incremental,
 la batería de pruebas correspondiente a código creado por el desarrollador. 
 
 Con este concepto en mente, una buena primera prueba sería validar la suma de dos números y dejar de lado el requisito de número variable de argumentos por ahora.
