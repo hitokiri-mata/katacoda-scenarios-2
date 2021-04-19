@@ -1,10 +1,10 @@
-Further Steps
+Pasos adicionales
 =============
 
-To get more practice, extend the test cases to handle the following scenarios:
+Para obtener más práctica, amplíe los casos de prueba para manejar los siguientes escenarios:
 
-* An empty string has a value of 0
-* Any string that starts with 0x as hexadecimal
-* Any string that starts with 0 should be treated as octal
+* Una cadena vacía tiene un valor de 0
+* Cualquier cadena que comience con 0x como hexadecimal
+* Cualquier cadena que comience con 0 debe tratarse como octal
 
-Remember to create the failing test case first.
+Recuerde crear primero el caso de prueba fallido.
