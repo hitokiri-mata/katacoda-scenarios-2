@@ -1,20 +1,22 @@
-Summary
+Resumen
 =======
 
-This has been a brief introduction to test driven development.  A simple, if slightly
-contrived, example has been used to introduce the concept of writing the tests first,
-fixing the test and the refactoring whilst keeping the tests passing.
+Esta ha sido una breve introducción al desarrollo basado en pruebas **TDD** por sus siglas en ingles. 
+Se utiliza un ejemplo simple, que si bien esta ligeramente elaborado, se utiliza con fines pedagógicos 
+para lograr introducir a los desarrolladores en los fundamentos básicos de como escribir las pruebas 
+primero, corregir la prueba y refactorizar mientras se mantienen las pruebas aprobadas.
 
-Keep tests small
+Manten siempre tus pruebas pequeñas
 ----------------
 
-By keeping the tests small and incrementally adding functionality, the code is kept in
-a working state.  This has the advantage being able to commit to master what has been
-completed if what you are working on changes.
+Al mantener las pruebas pequeñas y agregar funcionalidad de manera incremental, el código se 
+mantiene en muy buen estado, esto tiene una serie de ventajas, entre ellas el  poder comprender
+mas facilmenteel codigo escrito por otros autores y asi simplificar el proceso de mantenimiento 
+del mismo. 
 
-Practice
+Practica
 --------
 
-TDD, like many other skills, is something that gets better with practice.  A great way
-to extend your skills is to regularly be very strict with yourself and not write any
-code unless there is a failing test first.
+**TDD***, como muchas otras habilidades, es algo que mejora a traves de la práctica.
+Por ello una gran manera ampliar tus habilidades es ser muy estricto contigo mismo 
+y no escribir nada código a menos que primero haya una prueba fallida.
